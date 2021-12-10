@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CardViewPersonagens"
+    android:layout_width="100dp"
+    android:layout_height="250dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:background="#23EAB2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_ImagePersonagens"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#2F65ED"
+            android:scaleType="centerCrop"
+            android:src="@drawable/joel_tlou"
+            />
+
+        <TextView
+            android:id="@+id/TextoPersonagens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Nome:"
+            android:layout_marginTop="10dp"
+            android:textColor="#2d2d2d"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/idIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            android:text="Idade:" />
+
+        <TextView
+            android:id="@+id/idAvaliação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Avaliação:"
+            android:textAlignment="inherit"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
